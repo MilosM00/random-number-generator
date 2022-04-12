@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.overlay{
+    display: grid;
+    place-items: center;
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h1{
+    padding-bottom: 50px;
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+.min, .max{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.new-number{
+    padding: 15px;
+    background-color: rgb(255, 58, 58);
+    border: none;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.new-number:hover{
+    background-color: rgb(151, 23, 23);
+    transition: 0.7s;
+}
+
+.display-number{
+    padding-top: 50px;
+
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+}
